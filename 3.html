@@ -1,0 +1,23 @@
+<!-- Iterating Over a Set -->
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Iterables</h2>
+<p>Iterate over a Set:</p>
+
+<p id="demo"></p>
+
+<script>
+// Create a Set
+const letters = new Set(["a","b","c"]);
+
+// List all Elements
+let text = "";
+for (const x of letters) {
+  text += x + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
